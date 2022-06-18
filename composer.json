@@ -1,0 +1,17 @@
+{
+    "name": "jonah/homework5",
+    "description": "Homework 5: dogsdb (php+mySQL)",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Jonah Young",
+            "email": "jyoung128@student.cscc.edu"
+        }
+    ],
+    "require": {
+        "filp/whoops": "^2.9"
+    },
+    "autoload": {
+        "psr-4": {"DogsApp\\": "include/classes"}
+    }
+}
